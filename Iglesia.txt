@@ -1,0 +1,36 @@
+package Iglesia;
+import Iglesia.Iglesia.main.Feligres;
+import Iglesia.Iglesia.main.Feligres;
+import Iglesia.Iglesia.main.Feligres;
+        import java.util.ArrayList;
+        import java.util.List;
+        import java.util.Scanner;
+/**
+ *
+ * @author Esteban Picado
+ */
+public class Iglesia {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+
+
+/**
+ * Clase que representa una iglesia evangoelica
+ */
+class Iglesia {
+    private String nombre;
+    private String pastor;
+    private List<Feligres> feligreses;
+
+    public Iglesia(String nombre, String pastor) {
+        this.nombre = nombre;
+        this.pastor = pastor;
+        this.feligreses = new ArrayList<>();
+    }
+
+    public void agregarFeligres(Feligres feligres) {
+        feligreses.add(feligres);
+    }
